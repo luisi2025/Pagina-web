@@ -1,0 +1,128 @@
+.titu1{
+    color:black
+}
+a{
+    
+        color: #4CAF50; /* Verde para los enlaces */
+        text-decoration: none;
+        font-weight: bold;
+
+
+}
+.azul{
+    color: blue;
+}
+.justificado{
+    text-align: justify;
+}
+.contenedor{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap: 150px;
+    
+}
+.imagen{
+    width: 800px;
+    height: auto;
+    top: 80%;
+}
+.redes{
+    color: blue;
+}
+.perfil{
+    color: blue;
+    font-size:22px;
+}
+.para{
+   position: absolute;
+   top: 84%;
+   left: 57%;
+   transform: translate(-50%, -50%);
+   font-size: 1.5em;
+
+
+}
+aside{
+    border: 2px solid;
+    padding: 5px;
+    background-color: #f1f8e9;
+    margin: 20px;
+    font-size: 1.1em;
+    
+}
+.prof{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    gap: 40px;
+}
+table{
+    
+    width: 66%;
+    margin: 0px;
+    border-collapse:collapse;
+    align-items:normal;
+    
+}
+th{
+    background-color: #4CAF50;
+    color: #bae3fa;
+    padding: 8px;
+    text-align: left;
+    border: 2px solid;
+    border-color: black;
+   
+}
+td{
+    padding: 8px;
+    text-align: left;
+    border: 2px solid;
+    
+}
+tr:nth-child(even){
+    background-color:#d3f7ff;
+}
+tr:hover{
+    background-color: #85e5e4;
+}
+fieldset{
+    border: 3px solid;
+    border-radius: 10px;
+    padding: auto;
+}
+#main-f{
+    background-color: rgb(179, 234, 149);
+    width: 60%;
+}
+legend{
+    color: blue;
+    font-weight: bold;
+}
+form{
+    background-color:azure;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: auto;
+    margin: 20px auto;
+    
+
+}
+.enviar{
+    background-color: #64bb66;
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease;
+    /*box-shadow: 0 4px #ababab, 0 -2px 10px rgba(0, 0, 0, 0.1)*/
+}
+.enviar:hover{
+    background-color: rgb(31, 82, 53);
+    transform: translateY(-2px);
+}
