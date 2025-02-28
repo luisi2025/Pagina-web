@@ -44,9 +44,9 @@ a{
 
 }
 aside{
-    border: 2px solid;
+    border: none;
     padding: 5px;
-    background-color: #f1f8e9;
+    background-color: #caccc7;
     margin: 20px;
     font-size: 1.1em;
     
