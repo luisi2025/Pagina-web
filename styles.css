@@ -45,10 +45,12 @@ a{
 }
 aside{
     border: none;
-    padding: 5px;
+    padding: 10px;
     background-color: #caccc7;
     margin: 20px;
     font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 .prof{
